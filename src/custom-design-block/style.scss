@@ -1,0 +1,46 @@
+.wp-block-create-block-custom-design-block {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+
+    &.is-reversed {
+        flex-direction: row-reverse;
+    }
+
+    .block-image-wrapper {
+        flex: 1;
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+        }
+    }
+
+    .block-content-wrapper {
+        flex: 1.5;
+        h2 { margin-top: 0; font-size: 2rem; color: #222; }
+        p { font-size: 1.1rem; line-height: 1.6; color: #666; }
+    }
+
+    .custom-button {
+        display: inline-block;
+        background-color: #007cba;
+        color: #ffffff !important;
+        padding: 12px 24px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 600;
+        margin-top: 20px;
+        transition: opacity 0.2s ease;
+        
+        &:hover {
+            opacity: 0.8;
+            color: #ffffff !important;
+        }
+    }
+}

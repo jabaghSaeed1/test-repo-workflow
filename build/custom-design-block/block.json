@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/custom-design-block",
+  "version": "0.1.0",
+  "title": "Custom Design Block",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Custom image and text block with a functional link.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "custom-design-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "source": "html",
+      "selector": "h2"
+    },
+    "body": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "imageId": {
+      "type": "number"
+    },
+    "reversed": {
+      "type": "boolean",
+      "default": false
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Learn More"
+    },
+    "buttonUrl": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

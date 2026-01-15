@@ -1,0 +1,19 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-custom-design-block {
+	border: 1px dotted #f00;
+}
+.button-url-popover {
+    position: absolute;
+    z-index: 10;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 250px;
+    margin-top: 5px;
+}

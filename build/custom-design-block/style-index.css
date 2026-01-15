@@ -1,0 +1,54 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/custom-design-block/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+.wp-block-create-block-custom-design-block {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 30px;
+  background: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+}
+.wp-block-create-block-custom-design-block.is-reversed {
+  flex-direction: row-reverse;
+}
+.wp-block-create-block-custom-design-block .block-image-wrapper {
+  flex: 1;
+}
+.wp-block-create-block-custom-design-block .block-image-wrapper img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+.wp-block-create-block-custom-design-block .block-content-wrapper {
+  flex: 1.5;
+}
+.wp-block-create-block-custom-design-block .block-content-wrapper h2 {
+  margin-top: 0;
+  font-size: 2rem;
+  color: #222;
+}
+.wp-block-create-block-custom-design-block .block-content-wrapper p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #666;
+}
+.wp-block-create-block-custom-design-block .custom-button {
+  display: inline-block;
+  background-color: #007cba;
+  color: #ffffff !important;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 20px;
+  transition: opacity 0.2s ease;
+}
+.wp-block-create-block-custom-design-block .custom-button:hover {
+  opacity: 0.8;
+  color: #ffffff !important;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
